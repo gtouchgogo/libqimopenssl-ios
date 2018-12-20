@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QIMOpenSSL"
-  s.version      = "0.0.3-beta"
+  s.version      = "1.0.0-beta"
   s.summary      = "OpenSSL for iOS"
   s.description  = "QIM Public OpenSSL is an SSL/TLS and Crypto toolkit."
   s.homepage     = "https://im.qunar.com"
