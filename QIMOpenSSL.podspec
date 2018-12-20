@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QIMOpenSSL"
-  s.version      = "0.0.2"
+  s.version      = "1.0.1-beta"
   s.summary      = "OpenSSL for iOS"
   s.description  = "QIM Public OpenSSL is an SSL/TLS and Crypto toolkit."
   s.homepage     = "https://im.qunar.com"
@@ -9,7 +9,9 @@ Pod::Spec.new do |s|
 
   s.author        = { "Qunar IM" => "qtalk@qunar.com" }
 
-  s.ios.deployment_target = '6.0'
+  s.platform     = :ios, "9.0"
+
+  s.ios.deployment_target = '9.0'
   s.ios.source_files        = 'include-ios/openssl/**/*.h'
   s.ios.public_header_files = 'include-ios/openssl/**/*.h'
   s.ios.header_dir          = 'openssl'
