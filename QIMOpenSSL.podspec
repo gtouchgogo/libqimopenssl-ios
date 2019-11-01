@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.author        = { "Qunar IM" => "qtalk@qunar.com" }
 
-  s.deployment_target = '6.0'
+  s.ios.deployment_target = '6.0'
   s.source_files        = 'include-ios/openssl/**/*.h'
   s.public_header_files = 'include-ios/openssl/**/*.h'
   s.header_dir          = 'openssl'
