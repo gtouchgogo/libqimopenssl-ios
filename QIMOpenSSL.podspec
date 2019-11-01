@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
 
   s.author        = { "Qunar IM" => "qtalk@qunar.com" }
 
-  s.ios.deployment_target = '6.0'
-  s.ios.source_files        = 'include-ios/openssl/**/*.h'
-  s.ios.public_header_files = 'include-ios/openssl/**/*.h'
-  s.ios.header_dir          = 'openssl'
-  s.ios.preserve_paths      = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
-  s.ios.vendored_libraries  = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
+  s.deployment_target = '6.0'
+  s.source_files        = 'include-ios/openssl/**/*.h'
+  s.public_header_files = 'include-ios/openssl/**/*.h'
+  s.header_dir          = 'openssl'
+  s.preserve_paths      = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
+  s.vendored_libraries  = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
 
   s.libraries = 'ssl', 'crypto'
   s.requires_arc = false
